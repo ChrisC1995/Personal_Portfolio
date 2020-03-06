@@ -43,9 +43,13 @@ $(function () {
 
         if (($("#in1").val() == num1) && ($("#in2").val() == num2) && ($("#in3").val() == num3)) {
 	          $("#column3").css("background-color", "rgb(93, 148, 81)");
-            alert("You Win!!!!!!");
-            $("#reload").fadeIn();
+	          $("#reload").fadeIn();
             $("#subButton").fadeOut();
+            $("#winningtext").html("You won with " + currentLives + " lives left!");
+            $("#lives").fadeout();
+            
+            
+            
         }
     });
 
