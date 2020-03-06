@@ -1,0 +1,60 @@
+<html>
+<!-- have to have jquery -->
+
+<head>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <!-- Jquery must be on top -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!-- bootstrap-->
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="GuessingGame.css" />
+    <script src="GuessingGame.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+<title>Guessing Game</title>
+</head>
+
+<body>
+    <h1 style="text-align: center"> Guessing Game! </h1>
+    <h1 id="lives"></h1>
+    <br/>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3" id="column1">
+                <input type="tel" id="in1" maxlength="1" onkeypress="return isNumberKey(event)" /> </div>
+            <div class="col-md-3" id="column2">
+                <input type="tel" id="in2" maxlength="1" onkeypress="return isNumberKey(event)" /> </div>
+            <div class="col-md-3" id="column3">
+                <input type="tel" id="in3" maxlength="1" onkeypress="return isNumberKey(event)" /> </div>
+        </div>
+    </div>
+    <div id="divButton">
+        <button type="submit" id="subButton"> Guess! </button>
+        <button id="reload"> Reset </button>
+    </div>
+
+    <div>
+        <p> You have ten tries to correctly guess the number combination. Numbers can be between 1-9. If your guess is correct,
+            a green background will display. If your guess is correct, but in the wrong spot, a yellow background will display.
+            Lastly, if your guess is wrong, a red background will display.</p>
+    </div>
+
+    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+        <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+        <a class="a2a_button_facebook"></a>
+        <a class="a2a_button_twitter"></a>
+        <a class="a2a_button_google_plus"></a>
+    </div>
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+</body>
+
+</html>

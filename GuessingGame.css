@@ -1,0 +1,88 @@
+body {
+    background-image: url(https://i.ytimg.com/vi/5zQBUoj7-ic/maxresdefault.jpg);
+    color: black;
+    background-size: cover;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+h1 {
+    color: white;
+    font-size: 30pt;
+    text-align:  center;
+    text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
+}
+
+p {
+    border-style: solid;
+    text-align: center;
+    border-width: 10px;
+    color: black;
+    border-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+}
+
+#column1 {
+    height: 500px;
+    background-color: white;
+    margin: 4%;
+    border-radius: 20px;
+    border-style: inset;
+    border-width: 10px;
+    border-color:black;
+}
+#column2 {
+    height: 500px;
+    background-color: white;
+    margin: 4%;
+    border-radius: 20px;
+    border-style: inset;
+    border-width: 10px;
+    border-color:black;
+}
+#column3 {
+    height: 500px;
+    background-color: white;
+    margin: 4%;
+    border-radius: 20px;
+    border-style: inset;
+    border-width: 10px;
+    border-color:black;
+}
+
+#in1 {
+    height: 100%;
+    font-size: 20em;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+    border-style: none;
+    border: none;
+    text-shadow: -1px 0 white, 0 3px white, 3px 0 white, 0 -1px white;
+    outline: none;
+}
+#in2 {
+    height: 100%;
+    font-size: 20em;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+    border-style: none; 
+    border: none;
+    text-shadow: -1px 0 white, 0 3px white, 3px 0 white, 0 -1px white;
+    outline:none;
+}
+#in3 {
+    height: 100%;
+    font-size: 20em;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+    border-style: none;
+    border: none;
+    text-shadow: -1px 0 white, 0 3px white, 3px 0 white, 0 -1px white;
+    outline: none;
+}
+#divButton {
+    text-align: center;
+}

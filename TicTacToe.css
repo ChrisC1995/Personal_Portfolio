@@ -1,0 +1,75 @@
+#board {
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+button {
+    width:200px;
+    height:200px;
+    font-size: 50pt;
+    background-color: transparent;
+    color: white;
+}
+body{
+    margin-top: 50px;
+    background-image: url(http://www.clipartkid.com/images/513/index-of-blog-wp-content-uploads-2008-04-8UnebP-clipart.jpg);
+    background-size: 100% 100%;
+    font-family: 'Schoolbell', cursive;
+    font-size: 40pt;
+    color: white;
+}
+
+h1{
+    font-size: 50pt;
+}
+
+#reset {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 10px;
+}
+h1{
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+
+.btn-danger{
+    font-size: 20pt;
+    font-family: "schoolbell";
+    background-color: transparent;
+    color: white; 
+    margin-top: 100px;
+}
+
+#button1{
+    border-left:none;
+    border-top:none;
+}
+#button2{
+    border-top:none;
+}
+#button3{
+    border-right:none;
+    border-top:none;
+}
+#button4{
+    border-left:none;
+}
+#button6{
+    border-right:none;
+}
+#button7{
+    border-left:none;
+    border-bottom:none;
+}
+#button8{
+    border-bottom:none;
+}
+#button9{
+    border-bottom:none;
+    border-right:none;
+}

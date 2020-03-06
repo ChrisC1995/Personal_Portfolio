@@ -1,0 +1,34 @@
+body {
+    color:white;
+    background-image: url("http://static.tumblr.com/ed563f95b4cb3aa33db019607dedfaaf/pisnvs0/1tDn7jlhh/tumblr_static_75n67wf6mmo84os8c0o4c84sk.jpg");
+    background-size: cover;
+    font-family: 'Nova Mono', monospace;
+}
+div {
+    background: no-repeat;
+    background-size: cover;
+}
+p {
+    word-spacing: 70px;
+}
+h4 {
+    word-spacing: 50px;
+}
+.glyphicon-plus {
+    font-size: 20px;
+    padding: 10px;
+    background: transparent; 
+    border: none;
+    
+    color: white; 
+}
+#dropDown {
+    color:black;
+}
+.glyphicon-cloud {
+    font-size: 50px;
+    margin-left: 10px;
+}
+#remove {
+    border-style: outset;
+}
