@@ -1,0 +1,19 @@
+.container {
+	
+	padding: 20px;
+width: 300px;
+margin: 0 auto;
+margin-top: 40px;
+background: white;
+border-radius: 5px;}
+
+button {
+	align-content: right;
+}
+
+li {
+	width: 100%;
+}
+body {
+	background: silver;
+}
