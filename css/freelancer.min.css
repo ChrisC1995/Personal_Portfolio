@@ -15,6 +15,12 @@ img{
     border-radius: 10px;
     border-color: #2C3E50;
 }
+#me {
+	 border-style: solid;
+    border-width: 5px;
+    border-radius: 100px;
+    border-color: #2C3E50;
+}
 
 .customHr{
 margin-left: auto;
