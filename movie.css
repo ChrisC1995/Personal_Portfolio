@@ -51,3 +51,8 @@ button {
 	background: transparent;
 	font-size: 20pt;
 }
+
+#gif {
+	height: 100px;
+	width: 100px;
+}

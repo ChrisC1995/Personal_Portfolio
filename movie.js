@@ -17,6 +17,7 @@ function cardMaker (movieResult) {
 
 // 1
 function lookupMovieByTitle() {
+	$("#gif").remove();
     var movieTitle = $("#postalCode").val();
     var imdb_key = config.imdb_key;
     
