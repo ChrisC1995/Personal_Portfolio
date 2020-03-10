@@ -1,0 +1,53 @@
+body {
+    color:white;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5c1ddab47e3c3abf96dbc736/1545462313058-JRYJOHUCS8PQ9AIRMWQI/ke17ZwdGBToddI8pDm48kIgcZM_kEzIAwBZ1WPPPOMkUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcfu4ulbBaJ7BXzvPXUWXSAlPOkKAqNuwsHeLpw-PkC0PopNRAjB6vZ-P37SDRnx7r/Background-Narrow.jpg?format=2500w");
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+}
+div {
+    background: no-repeat;
+    background-size: cover;
+}
+p {
+    word-spacing: 70px;
+    font-size: 15pt;
+}
+label {
+	font-size: 15pt;
+}
+h4 {
+    font-size: 20pt;
+}
+
+span {
+	font-size: 15pt;
+}
+.glyphicon-plus {
+    font-size: 20px;
+    padding: 10px;
+    background: transparent; 
+    border: none;
+    
+    color: white; 
+}
+#dropDown {
+    color:black;
+}
+#remove {
+    border-style: outset;
+    background-image: url(img/movie_div.jpg);
+      margin: 40px; 
+      height: 80%; 
+      border-radius: 20px;
+        word-wrap: break-word;
+
+}
+#background {
+	background-size: cover;
+	border-radius: 20px;
+	
+}
+button {
+	background: transparent;
+	font-size: 20pt;
+}

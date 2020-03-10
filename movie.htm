@@ -18,11 +18,11 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     		<script type='text/javascript' src='config.js'></script>
 
-    <link rel="stylesheet" type="text/css" href="ChristianCampbellWeatherly.css"/>
-    <script src="Weatherly.js"></script>
+    <link rel="stylesheet" type="text/css" href="movie.css"/>
+    <script src="movie.js"></script>
     
     <script src="https://use.fontawesome.com/790f9781fd.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Nova+Mono" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
 
 </head>
 
@@ -47,23 +47,18 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#" style="font-size: 25pt; color: white;"><i>Weatherly</i></a>
+      <a class="navbar-brand" href="#" style="font-size: 25pt; color: white;"><i>PopFlix</i></a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="http://kyweathercenter.com/" target="_blank">Local</a></li>
-      <li><a href="http://www.noaa.gov/" target="_blank">National</a></li> 
-      <li><a href="http://www.accuweather.com/en/world-weather" target="_blank">International</a></li>
-       <li><a href="http://www.accuweather.com/en/world/satellite" target="_blank">Radar</a></li>
-        <li class="fb-share-button" data-href="http://ChrisC1995.github.io" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://chrisc1995.github.io/Personal_Portfolio/%2F&amp;src=sdkpreparse" style ="background-color: #3b5998">Share on Facebook!</a>
-        <li class="glyphicon glyphicon-cloud"/>
+      <li class="active"><a href="javascript:history.back()">Home</a></li>
+        <li class="fb-share-button" data-href="http://ChrisC1995.github.io/personal_portfolio" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://chrisc1995.github.io/Personal_Portfolio/%2F&amp;src=sdkpreparse" style ="background-color: #3b5998">Share on Facebook!</a>
     </ul>
     <div class="btn-group pull-right">
        <div id ="dropDown" class="dropdown pull-right">
            <button style="height: 50px; width: 50px" class="glyphicon glyphicon-plus dropdown-toggle pull-right" type="button" data-toggle="dropdown"></button>
            <ul style="width: 300px" class="dropdown-menu">
                <li>
-                        <label>Enter a postal code: <input type="text" id="postalCode" placeholder="postal code" /></label>
+                        <label> Enter A Movie Title: <input type="text" id="postalCode" placeholder="Ex. Lord of The Rings" /></label>
                 <button type="button" id="buttonLookUpZip">Lookup</button>
                </li>
        </div>
@@ -73,25 +68,26 @@
   </div>
 </nav>
 </div>
-    <div class = "container">
+    <div class = "container" id='background'>
         <div class = "row" id="cards">
             </div>
 
 
 
             <div id = "tempDiv">
-            <div id ="remove" class= "col-xs-10 col-sm-10 col-md-3 col-lg-3 col-xl-3" style = "background-image: url(blurred-background.jpeg);  margin: 40px; height: 370px; border-radius: 20px;">
+            <div id ="remove" class= "col-xs-5 col-sm-5 col-md-5 col-lg-5 col-xl-5">
 
             <h2>@@NAME@@</h2>
             <span>@@NAME2@@</span> 
             <br/>
-            <h1>@@TEMP@@</h1>
+            <h1>@@RATING@@</h1>
             <br/>
             <h3>@@SUMMARY@@</h3>
             <hr/>
-            <h4> Max Chance Low</h4>
-            <p>@@MAX@@  @@PERCENT@@  @@MIN@@</p>
-            <button id="removeB" class ="pull-right glyphicon glyphicon-remove btn btn-info"/>
+            <h4> <a href="@@LINK@@">Click Here To See A Trailer</a></h4>
+            <h4> RunTime:</h4>
+            <p>@@RUNTIME@@</p>
+            <button id="removeB" class ="pull-right glyphicon glyphicon-remove btn btn-dark btn-lg"/>
             </div>
             </div>
             </div>
